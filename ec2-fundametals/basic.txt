@@ -10,4 +10,24 @@
 
 EC2 instances info -- https://instances.vantage.sh/
 
+=> Security Groups
+- It contains allow rules (reference by IP or by security Groups)
+- Acts as a firewall on EC2 instance
+
+22 = SSH (Secure Shell) - log into a linux instance
+21 = FTP (File Transfer Portocol) - upload files into a file share
+22 = SFTP (Secure File Transfer Portocol) - upload files using SSH
+80 = HTTP - access unsecured websites
+443 = HTTPS - access secured websites
+3380 = RDP (Remote Desktop Portocol) - log into a Windows instance
+
+
+SSH into your EC2 instance (Linux/MAC)
+- Download pem file
+- Pulic IPv4 Address copy -- Security should be accessible everywhere
+- ssh ec2-user@{ipv4-address}
+- ssh -i {pem file} ec2-user@{ipv4-address}
+- chmod 0400 {pem file} (if permission error)
+- exit to get out
+
 
