@@ -1,0 +1,15 @@
+EBS Volume (Elastic Block Store)
+- EBS Snapshots
+    - EBS Snapshots Archive
+    - Recycle Bin for EBS Snapshots
+    - Fast Snapshot Restore (FSR)
+
+AMI (Amazon Machine Image)
+- AMI hands on created a instance, update it and created a AMI of that instance
+- Using AMI, created a instance in other AZ -- Which will be copy of our previous instance
+
+- Select Instance -> Right Click -> Image and Template -> Create Image 
+
+EBS Multi-Attach - io1/io2 family
+
+EFS - Elastic File System
